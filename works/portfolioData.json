@@ -5,7 +5,7 @@
     "genre": "Web",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/TheThreeInteractions01.png",
+      "imgsrc": "./src/TheThreeInteractions.png",
       "movsrc": ""
     },
     "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / Pure Data / etc.)",
@@ -96,7 +96,7 @@
     "genre": "Movie",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/AbandonedWorld02.png",
+      "imgsrc": "./src/AbandonedWorld.png",
       "movsrc": ""
     },
     "language": "使用ツール: Adobe After Effects",
