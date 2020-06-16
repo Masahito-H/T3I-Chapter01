@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Noto+Sans+JP:wght@500&family=Noto+Serif+JP&family=Oswald:wght@600&display=swap');
+
+div.video-wrap{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.video-wrap video{
+  position: absolute;
+  height: 100vh;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -3;
+}
+
+div.video-wrap div.overlay{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, 1));
+  background-size: 100vw 100vh;
+  z-index: -2;
+}
+
+h1.text-centre{
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+}
+
+nav#sp-nav nav#g-nav ul li a#about{
+  border-top: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+div#main-article h2.member-name{
+  padding: 0px;
+  margin: 10px 0px 20px;
+
+  font-family: "Oswald", sans-serif;
+}
+
+div#main-article h3.member-skill{
+  border-top: 1px solid rgba(255, 255, 255, .4);
+  padding-top: 18px;
+  margin: 23px 0px 0px;
+
+  font-family: "Noto Serif JP", serif;
+  font-weight: 400;
+}
+
+div#main-article article{
+  padding: 30px 15px 4.5px;
+}
+
+div#main-article article p{
+  margin: 10px 0px 10px;
+
+  font-family: "Noto Serif JP", serif;
+}

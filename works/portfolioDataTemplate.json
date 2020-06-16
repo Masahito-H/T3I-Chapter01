@@ -1,0 +1,15 @@
+[
+  {
+    "id": "",
+    "title": "",
+    "genre": "",
+    "thumbnail": {
+      "isMovie": true || false,
+      "imgsrc": "",
+      "movsrc": ""
+    },
+    "language": "",
+    "githubLink": "",
+    "describe": ""
+  }
+]

@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px){
+  nav#sp-nav nav#g-nav ul li a#works{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+    border-top-width: 3px;
+  }
+
+  div#centre{
+    height: 14vh;
+  }
+
+  h1.text-centre{
+    position: fixed;
+    width: 100vw;
+    height: 14vh;
+    display: inline-block;
+    background-color: #000;
+
+    padding-left: 5vw;
+    text-align: left;
+    font-size: 8vh;
+    margin-top: 0;
+    padding-top: 2.5vh;
+
+    z-index: 2;
+  }
+
+  div#main-article div#work-index{
+    display: none;
+  }
+
+  div#main-article article section.work a.link-thumbnail img.thumbnail{
+    width: 85vw;
+  }
+
+  div#main-article article section.work h2.work-title{
+    font-size: 41px;
+    margin-bottom: 2px;
+  }
+
+  div#main-article article section.work p{
+    line-height: 24px;
+    margin: 10px 0 10px;
+  }
+
+  div#main-article article section.work p a.github-link{
+    font-size: 90px;
+  }
+}

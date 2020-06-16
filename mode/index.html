@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODE - The Three Interactions</title>
+
+    <link href="../Library/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../Library/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="../commonStyle.css" rel="stylesheet" type="text/css">
+    <link href="../commonStyleResp.css" rel="stylesheet" type="text/css">
+    <link href="mode.css" rel="stylesheet" type="text/css">
+    <link href="modeResp.css" rel="stylesheet" type="text/css">
+
+    <script src="../Library/jquery-3.5.0.min.js"></script>
+    <script src="../Library/jquery-ui.min.js"></script>
+    <script src="../Library/imagesloaded.pkgd.min.js"></script>
+    <script src="../loading.js"></script>
+    <script src="../responsive.js"></script>
+
+    <script src="https://kit.fontawesome.com/8d439664aa.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="loading-screen" id="progress-screen">
+      <div class="progress-express"></div>
+      <span class="progress-text">0%</span>
+    </div>
+
+    <div class="main-body">
+      <div class="video-wrap">
+        <video src="Black-13494.mp4" autoplay loop muted></video>
+        <div class="overlay"></div>
+      </div>
+
+      <nav id="sp-nav">
+        <div class="visible-icon">
+          <span class="fas fa-bars resp-icon menu-icon"></span>
+        </div>
+        <nav id="g-nav">
+          <ul>
+            <li><a href="../index.html" id="top">TOP<br/><span>&#x21C3;</span></a></li>
+            <li><a href="../about/index.html" id="about">ABOUT<br/><span>&#x21C3;</span></a></li>
+            <li><a href="../works/index.html" id="works">WORKS<br/><span>&#x21C3;</span></a></li>
+            <li><a href="#" id="mode-vue" class="mode">CHAPTER 02<br/>Vue.js</a></li>
+            <li><a href="#" id="mode-react" class="mode">CHAPTER 03<br/>react</a></li>
+          </ul>
+        </nav>
+        <div class="visible-icon">
+          <span class="far fa-window-close resp-icon close-icon"></span>
+        </div>
+      </nav>
+
+      <div id="main-article">
+        <div id="centre">
+          <h1 class="text-centre">MODE</h1>
+        </div>
+        <article>
+          <p>under construction...</p>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@media screen and (max-width: 768px){
+  div.video-wrap{
+    width: 100%;
+  }
+
+  nav#sp-nav nav#g-nav ul li a#top{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+
+    border-top-width: 3px;
+  }
+
+  div#centre{
+    width: 100vw;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+
+  h1.text-centre{
+    font-size: 59px;
+  }
+
+  h1.text-centre span#portfolio-maintitle{
+    display: none;
+  }
+
+  small#copylicense{
+    font-size: 18px;
+  }
+}

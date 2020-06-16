@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORKS - The Three Interactions</title>
+
+    <link href="../Library/normalize.css" rel="stylesheet" type="text/css">
+    <link href="../Library/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <link href="../Library/colorbox.css" rel="stylesheet" type="text/css">
+    <link href="../commonStyle.css" rel="stylesheet" type="text/css">
+    <link href="../commonStyleResp.css" rel="stylesheet" type="text/css">
+    <link href="works.css" rel="stylesheet" type="text/css">
+    <link href="worksResp.css" rel="stylesheet" type="text/css">
+
+    <script src="../Library/jquery-3.5.0.min.js"></script>
+    <script src="../Library/jquery-ui.min.js"></script>
+    <script src="../Library/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="../Library/imagesloaded.pkgd.min.js"></script>
+    <script src="../Library/jquery.colorbox-min.js"></script>
+    <script src="../loading.js"></script>
+    <script src="../responsive.js"></script>
+    <script src="works.js"></script>
+
+    <script src="https://kit.fontawesome.com/8d439664aa.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="loading-screen" id="progress-screen">
+      <div class="progress-express"></div>
+      <span class="progress-text">0%</span>
+    </div>
+
+    <div class="main-body">
+      <div class="video-wrap">
+        <video src="Hacker_code_whiteblack_05_Videvo.mp4" autoplay loop muted></video>
+      </div>
+
+      <nav id="sp-nav">
+        <div class="visible-icon">
+          <span class="fas fa-bars resp-icon menu-icon"></span>
+        </div>
+        <nav id="g-nav">
+          <ul>
+            <li><a href="../index.html" id="top">TOP<br/><span>&#x21C3;</span></a></li>
+            <li><a href="../about/index.html" id="about">ABOUT<br/><span>&#x21C3;</span></a></li>
+            <li><a href="#" id="works">WORKS</a></li>
+            <li><a href="../mode/index.html" id="mode-vue" class="mode">CHAPTER 02<br/>Vue.js<br/><span>&#x21C3;</span></a></li>
+            <li><a href="../mode/index.html" id="mode-react" class="mode">CHAPTER 03<br/>react<br/><span>&#x21C3;</span></a></li>
+          </ul>
+        </nav>
+        <div class="visible-icon">
+          <span class="far fa-window-close resp-icon close-icon"></span>
+        </div>
+      </nav>
+
+      <div id="main-article">
+        <div id="centre">
+          <h1 class="text-centre">WORKS</h1>
+        </div>
+        <div id="work-index">
+          <form id="index-form">
+            <div class="work-genre-tab">
+              <p class="index-elem">Web:</p>
+              <input type="radio" id="web1" name="work" value="TheThreeInteractions" /><label for="web1">The Three Interactions</label>
+              <input type="radio" id="web2" name="work" value="Etudes" /><label for="web2">Etudes</label>
+            </div>
+            <div class="work-genre-tab">
+              <p class="index-elem">Application:</p>
+              <input type="radio" id="app1" name="work" value="OSCTidal" /><label for="app1">OSC Tidal</label>
+              <input type="radio" id="app2" name="work" value="GUIVisual" /><label for="app2">GUI-Visual Application</label>
+              <input type="radio" id="app3" name="work" value="DrawingAttractor" /><label for="app3">Drawing Attractor</label>
+            </div>
+            <div class="work-genre-tab">
+              <p class="index-elem">Graphic / Movie:</p>
+              <input type="radio" id="design1" name="work" value="EXTENSION" /><label for="design1">EXTENSION</label>
+              <input type="radio" id="design2" name="workd" value="DJgig" /><label for="design2">DJ footages</label>
+              <input type="radio" id="design3" name="work" value="AbandonedWorld" /><label for="design3">Abandoned world</label>
+            </div>
+            <div class="work-genre-tab">
+              <p class="index-elem">Others:</p>
+              <input type="radio" id="other1" name="work" value="PrototypeTPS" /><label for="other1">prototype TPS</label>
+              <input type="radio" id="other2" name="work" value="MusicCrossfade" /><label for="other2">music crossfade</label>
+            </form>
+          </div>
+        </div>
+
+        <article>
+        </article>
+      </div>
+    </div>
+  </body>
+</html>

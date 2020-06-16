@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Noto+Sans+JP:wght@500&family=Noto+Serif+JP&family=Oswald:wght@600&display=swap');
+
+div.video-wrap{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+div.video-wrap video{
+  position: absolute;
+  height: 100vh;
+
+  filter: invert(1) grayscale(1) brightness(0.3);
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -3;
+}
+
+h1.text-centre{
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+  text-align: center;
+
+  margin-bottom: 0px;
+}
+
+nav#sp-nav nav#g-nav ul li a#works{
+  border-top: 1px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+div#main-article div#work-index{
+  height: 74px;
+  margin: 5px 0px 15px;
+}
+
+div#main-article div#work-index div.work-genre-tab{
+  height: 34px;
+  padding: 0 auto;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+div#main-article div#work-index div.work-genre-tab:first-of-type{
+  margin-top: 0;
+}
+
+div#main-article div#work-index .work-elem{
+
+}
+
+div#main-article div#work-index div.work-genre-tab p{
+  margin-right: 10px
+}
+
+div#main-article div#work-index div.work-genre-tab ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+div#main-article div#work-index form#index-form label{
+  padding: 5px 5px 4px 5px;
+  background-color: #111;
+  color: #CCF;
+  border: 1.5px solid #111;
+  display: inline-block;
+}
+
+div#main-article article{
+  background-color: rgba(0, 0, 0, .15);
+  padding: 0px 15px 0px;
+}
+
+div#main-article article section.work{
+  padding: 23px 0px 15px;
+  margin: 0px;
+
+  border-bottom: 1px solid rgba(255, 255, 255, .4);
+}
+
+div#main-article article section.work:nth-last-child(1){
+  border-bottom: none;
+  padding-bottom: 0px;
+}
+
+div#main-article article section.work h2.work-title{
+  margin: 0px;
+
+  font-family: "Oswald", sans-serif;
+}
+
+div#main-article article section.work div.work-genre{
+  margin: 0px 0px 20px;
+}
+
+div#main-article article section.work a.link-thumbnail img.thumbnail{
+  width: 100%;
+  max-width: 500px;
+}
+
+div#main-article article section.work p{
+  margin: 10px 0px 10px;
+
+  font-family: "Noto Serif JP", serif;
+}
+
+div#main-article article section.work p.language{
+  margin-bottom: 10px;
+}
+
+div#main-article article section.work p a.github-link{
+  color: #CCF;
+  font-size: 25px;
+  opacity: .5;
+}

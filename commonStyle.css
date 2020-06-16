@@ -1,0 +1,183 @@
+@charset "UTF-8";
+@keyframes fadeIn {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  background-color: #333;
+  color: #F1F1FF;
+
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body br.resp{
+  display: none;
+}
+
+div.loading-screen {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  z-index: 3;
+  opacity: .5;
+}
+
+div.loading-screen div.progress-express {
+  background-color: rgba(255, 255, 255, .5);
+
+  position: absolute;
+  width:0%;
+  height: 14%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+div.loading-screen span.progress-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  text-align: center;
+
+  display: inline-block;
+  transform: translate(-50%, -60%);
+}
+
+div.loading-screen span.progress-text .spanToggle {
+  opacity: 0;
+}
+
+div.main-body {
+  opacity: 0;
+  z-index: 1;
+}
+
+nav#sp-nav{
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+}
+
+/*
+nav#g-nav{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  border: 1px solid #FF0;
+}
+*/
+
+nav#sp-nav div.visible-icon{
+  display: none;
+
+  position: absolute;
+  top: 1vh;
+  right: 3vw;
+  padding: 0 2vw;
+  font-size: 10vh;
+
+  background-color: #000;
+  cursor: pointer;
+  z-index: 3;
+}
+
+nav#sp-nav nav#g-nav{
+  display: block;
+}
+
+nav#sp-nav nav#g-nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav#sp-nav nav#g-nav ul li a{
+  display: block;
+  width: 200px;
+  padding: 20px;
+
+  font-size: 19px;
+  text-align: center;
+  text-decoration-line: none;
+  color: rgba(255, 255, 255, .5);
+  border-top: 1px solid rgba(255, 255, 255, .0);
+
+  transition-property: color, border-top;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 0, 0, 1.0);
+
+  position: absolute;
+}
+
+nav#sp-nav nav#g-nav ul li a:hover{
+  color: rgba(255, 255, 255, 1);
+  border-top: 1px solid rgba(255, 255, 255, 1.0);
+}
+
+nav#sp-nav nav#g-nav ul li a#top{
+  left: 50%;
+  transform: translateX(-50%) rotateZ(180deg);
+}
+
+nav#sp-nav nav#g-nav ul li a#about{
+  top: 50%;
+  transform: translate(-29%, -50%) rotateZ(90deg);
+}
+
+nav#sp-nav nav#g-nav ul li a#works{
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav#sp-nav nav#g-nav ul li a.mode{
+  right: 0%;
+  transform: translate(24%, -50%) rotateZ(270deg);
+  width: 200px;
+}
+
+nav#sp-nav nav#g-nav ul li a#mode-vue{
+  top: calc(50% - 110px);
+}
+
+nav#sp-nav nav#g-nav ul li a#mode-react{
+  top: calc(50% + 110px);
+}
+
+div#centre{
+  position: relative;
+}
+
+div#main-article{
+  position: absolute;
+  top: 45.5%;
+  left: 50%;
+  width: 65%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+}
+
+div#main-article article{
+  position: relative;
+  height: 50vh;
+
+  border: 1px solid #FFF;
+  text-align: center;
+  overflow-y: scroll;
+}
