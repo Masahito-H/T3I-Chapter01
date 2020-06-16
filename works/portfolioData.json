@@ -70,7 +70,7 @@
     "genre": "Graphic",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "",
+      "imgsrc": "./src/EXTENSION.png",
       "movsrc": ""
     },
     "language": "使用ツール: MAXON Cinema 4D / Adobe Illustrator / Adobe After Effects",
