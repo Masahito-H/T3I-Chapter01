@@ -130,3 +130,12 @@ div#main-article article section.work p a.github-link{
   font-size: 25px;
   opacity: .5;
 }
+
+div#main-article article section.work p a.external-link{
+  color: #CCF;
+  text-decoration: none;
+}
+
+div#main-article article section.work p a.external-link:hover{
+  text-decoration: underline;
+}

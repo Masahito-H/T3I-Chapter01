@@ -24,10 +24,10 @@ $(function(){
       let workHTML1 = `<section class="work" id="${item.id}">
                         <h2 class="work-title">${item.title}</h2>
                         <div class="work-genre">${item.genre}</div>`,
-          workHTML2 = (item.thumbnail.isMovie) ? `<iframe width="560" height="315" src="${item.thumbnail.movsrc}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>` 
+          workHTML2 = (item.thumbnail.isMovie) ? `<iframe width="560" height="315" src="${item.thumbnail.movsrc}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
                       : `<a class="link-thumbnail" href="${item.thumbnail.imgsrc}"><img src="${item.thumbnail.imgsrc}" class="thumbnail" /></a>`,
           //workHTML2 = `<a class="link-thumbnail" href="${(item.thumbnail.isMovie) ? item.thumbnail.movsrc : item.thumbnail.imgsrc}"><img src="${item.thumbnail.imgsrc}" class="thumbnail" /></a>`,
-          workHTML3 = ` ${(item.githubLink !== "") ? `<p><a class="github-link" href="${item.githubLink}" target="_blank"><span class='fab fa-github-square'></span><a></p>` : ""}
+          workHTML3 = ` ${(item.githubLink !== "") ? `<p><a class="github-link" href="${item.githubLink}" target="_blank"><span class='fab fa-github-square'></span></a></p>` : ""}
                         <p class="language">${item.language}</p>
                         ${item.describe}
                       </section>`,
