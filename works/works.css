@@ -35,8 +35,10 @@ nav#sp-nav nav#g-nav ul li a#works{
 }
 
 div#main-article div#work-index{
-  height: 74px;
-  margin: 5px 0px 15px;
+  height: 89px;
+  margin: 5px 0px 0px;
+
+  overflow-y: scroll
 }
 
 div#main-article div#work-index div.work-genre-tab{
