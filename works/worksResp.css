@@ -1,3 +1,9 @@
+@media screen and (max-width: 1600px){
+  div#main-article div#work-index form#index-form{
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 768px){
   nav#sp-nav nav#g-nav ul li a#works{
     color: rgb(0, 0, 0);
