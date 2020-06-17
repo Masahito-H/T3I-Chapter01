@@ -44,7 +44,7 @@ div#main-article div#work-index{
 }
 
 div#main-article div#work-index form#index-form{
-  display: flex;
+  /*display: flex;*/
 }
 
 div#main-article div#work-index div.work-genre-tab{
