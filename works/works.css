@@ -38,6 +38,7 @@ div#main-article div#work-index{
   height: 89px;
   margin: 5px 0px 0px;
   padding-left: 10px;
+  overflow-y: hidden;
 }
 
 div#main-article div#work-index form#index-form{
@@ -45,7 +46,6 @@ div#main-article div#work-index form#index-form{
   flex-direction: column;
   flex-wrap: wrap;
   height: 100%;
-  overflow-y: hidden;
 }
 
 div#main-article div#work-index div.work-genre-tab{

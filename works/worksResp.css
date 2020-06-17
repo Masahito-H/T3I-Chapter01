@@ -1,11 +1,11 @@
 @media screen and (max-width: 1600px){
   div#main-article div#work-index{
     border-right: 1px solid #fff;
+    overflow-y: scroll;
   }
 
   div#main-article div#work-index form#index-form{
     height: auto;
-    overflow-y: scroll;
   }
 }
 
