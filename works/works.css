@@ -37,8 +37,14 @@ nav#sp-nav nav#g-nav ul li a#works{
 div#main-article div#work-index{
   height: 89px;
   margin: 5px 0px 0px;
+  padding-right: 10px;
 
   overflow-y: scroll;
+  border-right: 1px solid #fff;
+}
+
+div#main-article div#work-index form#index-form{
+  display: flex;
 }
 
 div#main-article div#work-index div.work-genre-tab{
