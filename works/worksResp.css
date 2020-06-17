@@ -1,6 +1,7 @@
 @media screen and (max-width: 1600px){
   div#main-article div#work-index form#index-form{
     height: auto;
+    overflow-y: scroll;
   }
 }
 
