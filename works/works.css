@@ -38,7 +38,7 @@ div#main-article div#work-index{
   height: 89px;
   margin: 5px 0px 0px;
 
-  overflow-y: scroll
+  overflow-y: scroll;
 }
 
 div#main-article div#work-index div.work-genre-tab{
