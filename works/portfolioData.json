@@ -10,7 +10,7 @@
     },
     "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / PureData / etc.)",
     "githubLink": "",
-    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: （現在工事中）</p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作</p><p>（現在制作進行中）</p>"
+    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: （現在工事中）</p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作</p><p>（現在制作進行中）</p>"
   },
   {
     "id": "Etudes",
@@ -23,7 +23,7 @@
     },
     "language": "使用言語: Javascript (Vue.js / p5.js)",
     "githubLink": "",
-    "describe": "<p>Etudes: <a class='external-link' href='https://etudes-prototype.netlify.app'>https://etudes-prototype.netlify.app</a></p><p>Vue.jsとp5.jsを用いた習作集<br/>計3作実装</p>"
+    "describe": "<p>Etudes: <a class='external-link' href='https://etudes-prototype.netlify.app' target='_blank'>https://etudes-prototype.netlify.app</a></p><p>Vue.jsとp5.jsを用いた習作集<br/>計3作実装</p>"
   },
   {
     "id": "OSCTidal",
@@ -32,7 +32,7 @@
     "thumbnail": {
       "isMovie": true,
       "imgsrc": "./src/OSCTidal.png",
-      "movsrc": "https://www.youtube.com/embed/ksqFgkCHrPE"
+      "movsrc": "https://www.youtube.com/embed/IBHPNMzhsOM"
     },
     "language": "使用言語: Processing / TidalCycles / SuperCollider",
     "githubLink": "https://github.com/Masahito-H/OSCTidal",
