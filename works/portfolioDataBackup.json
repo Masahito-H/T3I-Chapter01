@@ -1,0 +1,132 @@
+[
+  {
+    "id": "TheThreeInteractions",
+    "title": "The Three Interactions",
+    "genre": "Web",
+    "thumbnail": {
+      "isMovie": false,
+      "imgsrc": "./src/TheThreeInteractions.png",
+      "movsrc": ""
+    },
+    "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / PureData / etc.)",
+    "githubLink": "",
+    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: （現在工事中）</p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作<br />Vue.jsのポートフォリオサイトではカーソルの動きに合わせて流れる音と背景が同時に変化するインタラクティブな機能を実装</p><p>（現在制作進行中）</p>"
+  },
+  {
+    "id": "Etudes",
+    "title": "Etudes",
+    "genre": "Web",
+    "thumbnail": {
+      "isMovie": false,
+      "imgsrc": "./src/Etudes.png",
+      "movsrc": ""
+    },
+    "language": "使用言語: Javascript (Vue.js / p5.js)",
+    "githubLink": "",
+    "describe": "<p>Etudes: <a class='external-link' href='https://etudes-prototype.netlify.app' target='_blank'>https://etudes-prototype.netlify.app</a></p><p>Vue.jsとp5.jsを用いた習作集<br/>計3作実装</p>"
+  },
+  {
+    "id": "OSCTidal",
+    "title": "OSC Tidal",
+    "genre": "Application",
+    "thumbnail": {
+      "isMovie": true,
+      "imgsrc": "./src/OSCTidal.png",
+      "movsrc": "https://www.youtube.com/embed/IBHPNMzhsOM"
+    },
+    "language": "使用言語: Processing / TidalCycles / SuperCollider",
+    "githubLink": "https://github.com/Masahito-H/OSCTidal",
+    "describe": "<p>OSC通信と複数のプログラミング言語を用いた<br />音と映像の生成・同期を行うアプリケーションを開発</p>"
+  },
+  {
+    "id": "GUIVisual",
+    "title": "GUI-Visual Application",
+    "genre": "Application",
+    "thumbnail": {
+      "isMovie": false,
+      "imgsrc": "./src/GUI-VisualApplication03.png",
+      "movsrc": ""
+    },
+    "language": "使用言語: Processing",
+    "githubLink": "https://github.com/Masahito-H/GUI-VisualApplication",
+    "describe": "<p>画面下部のGUI（ノブやボタン）を操作することによって、<br />生成された映像をリアルタイムに変化させるアプリケーション</p><p>一部の映像を除き、マイク入力による変化を実装</p>"
+  },
+  {
+    "id": "DrawingAttractor",
+    "title": "Drawing Attructor",
+    "genre": "Application",
+    "thumbnail": {
+      "isMovie": true,
+      "imgsrc": "./src/DrawingAttractor01.png",
+      "movsrc": "https://www.youtube.com/embed/NJSdmx4RHFQ"
+    },
+    "language": "使用言語: C++ (openFrameworks)",
+    "githubLink": "https://github.com/Masahito-H/DrawingAttractor",
+    "describe": "<p>コンピュータグラフィックの授業にて制作した小品<br />テクスチャにローレンツアトラクタを描画し、法線ベクトルを用いて3DCGへとマッピングする仕組みを実装</p>"
+  },
+  {
+    "id": "EXTENSION",
+    "title": "EXTENSION ジャケット&盤面デザイン",
+    "genre": "Graphic",
+    "thumbnail": {
+      "isMovie": false,
+      "imgsrc": "./src/EXTENSION.png",
+      "movsrc": ""
+    },
+    "language": "使用ツール: MAXON Cinema 4D / Adobe Illustrator / Adobe After Effects",
+    "githubLink": "",
+    "describe": "<p>CG & Logo design: Masahito-H / Illust: yuenao</p><p>FancyRecords 2017春 コンピレーションアルバム「EXTENSION」のジャケットデザイン（3DCG、ロゴ）と盤面デザインを担当</p>"
+  },
+  {
+    "id": "DJgig",
+    "title": "FancyRecords 2017 DJ Live: footages of DJ members",
+    "genre": "Movie",
+    "thumbnail": {
+      "isMovie": true,
+      "imgsrc": "",
+      "movsrc": "https://www.youtube.com/embed/iHrPM6N7rfQ"
+    },
+    "language": "使用ツール: Adobe After Effects",
+    "githubLink": "",
+    "describe": "<p>学祭より、FancyRecordsのDJイベントに向けて制作したフッテージ<br />DJ参加メンバーのパフォーマンス開始毎に使用</p>"
+  },
+  {
+    "id": "AbandonedWorld",
+    "title": "Abandoned world（仮題）",
+    "genre": "Movie",
+    "thumbnail": {
+      "isMovie": false,
+      "imgsrc": "./src/AbandonedWorld.png",
+      "movsrc": ""
+    },
+    "language": "使用ツール: Adobe After Effects",
+    "githubLink": "",
+    "describe": "<p>プライベート制作映像</p><p>（諸事情により画像のみ掲載）</p>"
+  },
+  {
+    "id": "PrototypeTPS",
+    "title": "TPSゲーム（プロトタイプ版）",
+    "genre": "Game",
+    "thumbnail": {
+      "isMovie": true,
+      "imgsrc": "./src/PrototypeTPS.png",
+      "movsrc": "https://www.youtube.com/embed/K2o63N-A6QA"
+    },
+    "language": "使用ゲームエンジン: Unreal Engine 4",
+    "githubLink": "",
+    "describe": "<p>キャラクターをトゥーンレンダリングできないか試行錯誤しているうちに流れでFPSを作ることになった、当時大学2年の頃に制作したゲーム<br />中央の台座に最初に出現するプロ生ちゃんを倒せばクリア</p><p>（プロトタイプ版のみ、デモ映像として掲載）</p><p><small>© UTJ/UCL &ensp; © 2019 Pronama LLC</small></p>"
+  },
+  {
+    "id": "MusicCrossfade",
+    "title": "今まで制作した音楽作品のクロスフェード",
+    "genre": "Music",
+    "thumbnail": {
+      "isMovie": false,
+      "imgsrc": "./src/DAW.png",
+      "movsrc": ""
+    },
+    "language": "使用DAWなど: FL Studio / Studio One / Pure Data",
+    "githubLink": "",
+    "describe": "<p>法政大学作曲研究会FancyRecordsに所属している間に作ってきた音楽のクロスフェード</p><p>一部の曲にプログラミングPure Dataで生成した音を使用している</p><p>（クロスフェード版のみ: 準備中）</p>"
+  }
+]
