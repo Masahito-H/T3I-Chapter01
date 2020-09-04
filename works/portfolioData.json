@@ -11,7 +11,7 @@
     },
     "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / PureData / etc.)",
     "githubLink": "",
-    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: （現在工事中）</p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作<br />Vue.jsのポートフォリオサイトではカーソルの動きに合わせて流れる音と背景が同時に変化するインタラクティブな機能を実装</p>"
+    "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: <a class='external-link' href='https://t3i-chapter03-prototype.netlify.app/' target='_blank'>https://t3i-chapter03-prototype.netlify.app/</a></p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作<br />Vue.jsのポートフォリオサイトではカーソルの動きに合わせて流れる音と背景が同時に変化するインタラクティブな機能を実装</p>"
   },
   {
     "id": "Etudes",
