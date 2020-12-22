@@ -5,11 +5,11 @@
     "genre": "Web",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/TheThreeInteractions.webp",
+      "imgsrc": "./src/TheThreeInteractions01.webp",
       "movsrc": "",
       "detailsrcs": ["./src/TheThreeInteractions01.webp", "./src/TheThreeInteractions02.webp", "./src/TheThreeInteractions03.webp"]
     },
-    "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / PureData / etc.)",
+    "language": "使用言語: Javascript (jQuery / Vue.js / Nuxt.js / React / p5.js / PureData / three.js / Howler.js etc.)",
     "githubLink": "",
     "describe": "<p>jQuery: <a class='external-link' href='https://t3i-chapter01-prototype.netlify.app/' target='_blank'>https://t3i-chapter01-prototype.netlify.app/</a><br />Vue.js: <a class='external-link' href='https://t3i-chapter02-prototype.netlify.app/' target='_blank'>https://t3i-chapter02-prototype.netlify.app/</a><br />React: <a class='external-link' href='https://t3i-chapter03-prototype.netlify.app/' target='_blank'>https://t3i-chapter03-prototype.netlify.app/</a></p><p>ポートフォリオサイト</p><p>jQuery、Vue.js、Reactの三つのライブラリ・フレームワークを用いてそれぞれのポートフォリオサイトを制作<br />Vue.jsのポートフォリオサイトではカーソルの動きに合わせて流れる音と背景が同時に変化するインタラクティブな機能を実装</p>"
   },
@@ -103,7 +103,7 @@
     "genre": "Movie",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/AbandonedWorld.webp",
+      "imgsrc": "./src/AbandonedWorld01.webp",
       "movsrc": "",
       "detailsrcs": ["./src/AbandonedWorld01.webp", "./src/AbandonedWorld02.webp"]
     },
