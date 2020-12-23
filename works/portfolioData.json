@@ -5,7 +5,7 @@
     "genre": "Web",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/TheThreeInteractions01.webp",
+      "imgsrc": "./src/TheThreeInteractions.webp",
       "movsrc": "",
       "detailsrcs": ["./src/TheThreeInteractions01.webp", "./src/TheThreeInteractions02.webp", "./src/TheThreeInteractions03.webp"]
     },
@@ -103,7 +103,7 @@
     "genre": "Movie",
     "thumbnail": {
       "isMovie": false,
-      "imgsrc": "./src/AbandonedWorld01.webp",
+      "imgsrc": "./src/AbandonedWorld.webp",
       "movsrc": "",
       "detailsrcs": ["./src/AbandonedWorld01.webp", "./src/AbandonedWorld02.webp"]
     },
