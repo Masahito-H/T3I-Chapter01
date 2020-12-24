@@ -65,3 +65,41 @@ div#main-article article p{
 
   font-family: "Noto Serif JP", serif;
 }
+
+div#main-article section{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#main-article section div#function-list{
+  margin: 0;
+  padding: 10px 0;
+}
+
+div#main-article section div#function-list a{
+  display: block;
+  width: 300px;
+  padding-bottom: 5px;
+
+  font-size: 19px;
+  font-family: "Noto Serif JP", serif;
+  text-align: center;
+  text-decoration-line: none;
+  color: rgba(255, 255, 255, .5);
+  border-top: 1px solid rgba(255, 255, 255, .5);
+  border-bottom: 1px solid rgba(255, 255, 255, .5);
+
+  transition-property: color, border-top, border-bottom;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 0, 0, 1.0);
+
+  /*position: absolute;*/
+}
+
+div#main-article section div#function-list a:hover{
+  color: rgba(255, 255, 255, 1.0);
+  border-top: 1px solid rgba(255, 255, 255, 1.0);
+  border-bottom: 1px solid rgba(255, 255, 255, 1.0);
+}
